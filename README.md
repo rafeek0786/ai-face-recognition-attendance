@@ -1,25 +1,38 @@
-# AI Face Detection 👁️
+# AI Face Recognition Attendance System 👁️
 
-## Description
+## 📌 Description
 
-This project detects human faces in real-time using a webcam with OpenCV.
+This project is an AI-based face recognition system that detects and identifies people using a webcam and automatically marks attendance.
 
-## Features
+## 🚀 Features
 
-* Real-time face detection
-* Simple and fast
-* Uses webcam
+* Face Detection
+* Face Recognition
+* Automatic Attendance (CSV file)
+* Real-time webcam processing
 
-## Technologies
+## 🛠️ Technologies Used
 
 * Python
 * OpenCV
+* face_recognition
 
-## Run this project
+## ▶️ How to Run
 
-pip install -r requirements.txt
-python main.py
+1. Install dependencies:
+   pip install -r requirements.txt
 
-## Author
+2. Add images to dataset folder
+
+3. Run:
+   python main.py
+
+## 📂 Project Structure
+
+* main.py
+* dataset/
+* attendance.csv
+
+## 👤 Author
 
 Your Name
